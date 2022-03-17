@@ -43,6 +43,9 @@ Concats all the text files into one. There's a space between each sentence.
 To run this on HPC: 
     
     sbatch script-trainer.sh
+    
+### Tokenizer
+Tokenize a real-world reference string for prediction. 
 
 You may need to create environment and install required modules for a successful run.
 
