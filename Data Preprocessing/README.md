@@ -13,4 +13,7 @@ Contains tokenizer that converts an annotated citation string into a list of wor
 > concat-text-files.ipynb :
 This code takes all the text files(that are created from *dataset-builder.ipnyb*) from a directory and merge them into one.
 
+> GIANTprocessor.py:
+This processor file will process the GIANT citation strings. It removes the tags from GIANT citation strings and save the labels and text into two spearate files.
+
 
