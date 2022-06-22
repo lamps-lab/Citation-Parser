@@ -16,7 +16,7 @@ This code takes all the text files(that are created from *dataset-builder.ipnyb*
 > GIANTprocessor.py:
 This processor file will process the GIANT citation strings. It removes the tags from GIANT citation strings and save the labels and text into two spearate files.
 
->BERTcitation-custom.ipynb:
+>BERTtokenizer-custom.ipynb:
 We are using GIANT text files which was processed by GIANTprocessor.py file. Then we are creating a BERTcitation-custom tokenizer. This is trained on all GIANT datasets. It returns a vocabulary.txt file and a out pre-trained model for tokenization.
 
 
